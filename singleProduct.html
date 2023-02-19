@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet" />
+
+    <title>E-commerce Single Product Page</title>
+</head>
+
+<body>
+
+    <nav class="header">
+        <a href="index.html"><img class="logo" src="images/images.png" alt="logo" /></div>
+            <ul id="items">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+            <div id="mobile">
+                <a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                <i id="bar" class="fa fa-outdent"></i>
+            </div>
+    </nav>
+
+    <section id="product-details" class="section-new">
+        <div class="single-product-image">
+            <img src="images/products/f1.jpg" width="100%" id="main-image" alt="product-image" />
+            <div class="small-img-group">
+                <div class="small-img-column">
+                    <img src="images/products/f1.jpg" width="100%" id="small-image-1" alt="" />
+                </div>
+                <div class="small-img-column">
+                    <img src="images/products/f2.jpg" width="100%" id="small-image-2" alt="" />
+                </div>
+                <div class="small-img-column">
+                    <img src="images/products/f3.jpg" width="100%" id="small-image-3" alt="" />
+                </div>
+                <div class="small-img-column">
+                    <img src="images/products/f4.jpg" width="100%" id="small-image-4" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="single-product-details">
+            <h6>Home / T-shirt</h6>
+            <h4>Men's Fashion T-shirt</h4>
+            <h2>$139.40</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Comfortable, casual, and loose-fitting, our heavyweight dark color t-shirt will quickly become one of
+                your favorites. Made from 100% cotton, it wears well on anyone. We’ve double-needle stitched the bottom
+                and sleeve hems for extra durability. Select a design from our marketplace or customize it to make it
+                uniquely yours!. This T-shirt-is comfortable and casual because it is loose-fitting.
+                is People's favorite because of dark colors.
+                wears well on anyone because of 100% cotton.
+                </div>
+    </section>
+
+    <section id="products" class="section-new">
+        <h2>Featured Products</h2>
+        <p>Go grab the best deals before winter get's off</p>
+        <div class="product-container">
+            <div class="apperal" >
+                <img src="images/products/n5.jpg" alt="product" />
+                <div class="description">
+                    <span>Mango</span>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>Price : $60</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="apperal">
+                <img src="images/products/n6.jpg" alt="product" />
+                <div class="description">
+                    <span>Crocodile</span>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>Price : $57</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="apperal">
+                <img src="images/products/n7.jpg" alt="product" />
+                <div class="description">
+                    <span>Reebok</span>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>Price : $50</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="apperal">
+                <img src="images/products/n8.jpg" alt="product" />
+                <div class="description">
+                    <span>Fila</span>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h4>Price : $45</h4>
+                </div>
+                <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-new selection-margin">
+        <div class="news-text">
+            <h4>Sign Up for the News-Letter</h4>
+            <p>Get Emails regarding new offers new arrivals and special Offers</p>
+        </div>
+        <div class="details">
+            <input type="email" placeholder="Your email address" />
+            <button class="white">SignUp</button>
+        </div>
+    </section>
+
+    <footer id="footer" class="section-new" style="margin-bottom: 0px;">
+        <div class="col-1">
+            <img src="images/images.png" class="logo" alt="logo-image" />
+            <h4>Contact</h4>
+            <p><strong>Address :</strong>746 -12 Colony God-Nation Street NYC, San Fransico</p>
+            <p><strong>Phone :</strong> +1*************</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div id="icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View cart</a>
+            <a href="#">My WishList</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play Store</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="logo" />
+                <img src="images/pay/play.jpg" alt="logo" />
+            </div>
+            <p>Secured payment gateway</p>
+            <img src="images/pay/pay.png" />
+        </div>
+        <div class="copyright">
+            <p>copyRight- 2022 the copyright para</p>
+        </div>
+    </footer>
+    <script>
+        var bigImage = document.getElementById('main-image');
+   let first =document.getElementById('small-image-1')
+   let second = document.getElementById('small-image-2')
+   let third = document.getElementById('small-image-3')
+   let fourth = document.getElementById('small-image-4')
+
+        first.onclick= function (){
+            bigImage.src = first.src
+        }
+        second.onclick= function (){
+            bigImage.src =second.src
+        }
+        third.onclick= function (){
+            bigImage.src =third.src
+        }
+        fourth.onclick= function (){
+            bigImage.src =fourth.src
+        }
+    </script>
+    <script src="App.js"></script>
+</body>
+
+</html>
